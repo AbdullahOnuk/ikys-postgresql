@@ -1,0 +1,19 @@
+# Yerel bağlantı bilgileri ve gizli ayarlar
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+pg_service.conf
+
+# Veritabanı yedekleri ve çalışma dosyaları
+*.backup
+*.dump
+*.log
+*.tmp
+
+# Editör ve işletim sistemi dosyaları
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
